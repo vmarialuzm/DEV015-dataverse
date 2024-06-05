@@ -933,7 +933,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 ### Primeros pasos
 
 Súmate al canal de Slack
-[#project-dataverse](https://claseslaboratoria.slack.com/archives/C03MV35EP5M)
+[#project-dataverse](https://claseslaboratoria.slack.com/archives/C05V648LL1G)
 para conversar y pedir ayuda del proyecto.
 
 Antes de empezar a escribir código, debes definir qué deberá hacer el
