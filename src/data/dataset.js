@@ -1,378 +1,291 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
-    "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+    id: "machu-picchu",
+    name: "Machu Picchu",
+    shortDescription: "Ciudadela inca ubicada en los Andes peruanos, patrimonio mundial.",
+    description: "Machu Picchu es una antigua ciudad inca situada en las montañas de los Andes en Perú. Construida en el siglo XV, es conocida por su impresionante arquitectura de piedra, terrazas agrícolas y vistas panorámicas. La ciudadela está rodeada de un paisaje natural espectacular, que incluye picos montañosos y la selva tropical. Machu Picchu es un símbolo del imperio inca y un importante sitio arqueológico, atrayendo a millones de turistas cada año que buscan explorar su historia y cultura. Fue declarada Patrimonio de la Humanidad por la UNESCO en 1983.",
+    imageUrl: "https://example.com/machu-picchu.jpg",
+    facts: {
+      yearOfDiscovery: "1911",
+      country: "Perú",
+      unescoWorldHeritage: "1983"
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
-    "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+    id: "eiffel-tower",
+    name: "Torre Eiffel",
+    shortDescription: "Icono de París y uno de los monumentos más reconocidos del mundo.",
+    description: "La Torre Eiffel, construida en 1889 como una entrada a la Exposición Universal, es uno de los monumentos más icónicos del mundo. Ubicada en París, Francia, la torre de hierro forjado se eleva a 324 metros y ofrece vistas panorámicas impresionantes de la ciudad. Originalmente criticada por su diseño, hoy es un símbolo de la ingeniería moderna y un destino turístico principal. Millones de visitantes suben a la torre cada año para disfrutar de las vistas y la experiencia única de estar en uno de los puntos más altos de París.",
+    imageUrl: "https://example.com/eiffel-tower.jpg",
+    facts: {
+      yearOfDiscovery: "1889",
+      country: "Francia",
+      unescoWorldHeritage: "1985"
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
-    "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+    id: "great-wall-of-china",
+    name: "La Gran Muralla China",
+    shortDescription: "Antigua muralla defensiva que se extiende por miles de kilómetros.",
+    description: "La Gran Muralla China es una de las estructuras más impresionantes construidas por el ser humano. Esta antigua fortificación fue erigida para proteger a China de invasiones, extendiéndose a lo largo de miles de kilómetros desde el desierto de Gobi hasta el Mar Amarillo. Construida y reconstruida desde el siglo VII a.C. hasta el siglo XVII, la muralla está compuesta por diversas secciones de piedra, ladrillo y tierra apisonada. La Gran Muralla es un símbolo de la tenacidad y la capacidad de organización de la civilización china.",
+    imageUrl: "https://example.com/great-wall-of-china.jpg",
+    facts: {
+      yearOfDiscovery: "No aplica",
+      country: "China",
+      unescoWorldHeritage: "1987"
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+    id: "taj-mahal",
+    name: "Taj Mahal",
+    shortDescription: "Mausoleo de mármol blanco, símbolo del amor eterno.",
+    description: "El Taj Mahal, ubicado en Agra, India, es un mausoleo de mármol blanco construido por el emperador mogol Shah Jahan en memoria de su esposa Mumtaz Mahal. Completado en 1653, es una obra maestra de la arquitectura mogol, combinando elementos islámicos, persas, otomanos e indios. El Taj Mahal es famoso por su simetría perfecta, sus intrincados detalles y su cúpula de mármol que refleja los colores del cielo. Es uno de los destinos turísticos más visitados del mundo y fue designado Patrimonio de la Humanidad por la UNESCO en 1983.",
+    imageUrl: "https://example.com/taj-mahal.jpg",
+    facts: {
+      yearOfDiscovery: "1653",
+      country: "India",
+      unescoWorldHeritage: "1983"
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
-    "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+    id: "statue-of-liberty",
+    name: "Estatua de la Libertad",
+    shortDescription: "Monumento que simboliza la libertad y la democracia en Nueva York.",
+    description: "La Estatua de la Libertad, un regalo de Francia a Estados Unidos, se encuentra en la isla de la Libertad en el puerto de Nueva York. Inaugurada en 1886, la estatua de cobre representa a Libertas, la diosa romana de la libertad. Es un símbolo de la democracia y la esperanza para millones de inmigrantes que llegaron a América en busca de una vida mejor. La estatua, diseñada por Frédéric Auguste Bartholdi y con estructura de Gustave Eiffel, es uno de los monumentos más reconocidos en el mundo.",
+    imageUrl: "https://example.com/statue-of-liberty.jpg",
+    facts: {
+      yearOfDiscovery: "1886",
+      country: "Estados Unidos",
+      unescoWorldHeritage: "1984"
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
-    "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+    id: "christ-the-redeemer",
+    name: "Cristo Redentor",
+    shortDescription: "Monumento religioso ubicado en la cima del monte Corcovado.",
+    description: "El Cristo Redentor es una estatua icónica de Jesús de Nazaret con los brazos extendidos, situada en la cima del monte Corcovado en Río de Janeiro, Brasil. Inaugurada en 1931, la estatua de 30 metros de altura fue diseñada por el escultor francés Paul Landowski y el ingeniero brasileño Heitor da Silva Costa. Hecha de hormigón armado y piedra jabón, el Cristo Redentor es un símbolo de la fe cristiana y ofrece vistas panorámicas espectaculares de la ciudad. Es una de las Nuevas Siete Maravillas del Mundo moderno.",
+    imageUrl: "https://example.com/christ-the-redeemer.jpg",
+    facts: {
+      yearOfDiscovery: "1931",
+      country: "Brasil",
+      unescoWorldHeritage: "2007"
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
-    "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+    id: "colosseum",
+    name: "Coliseo",
+    shortDescription: "Anfiteatro romano en el corazón de Roma, Italia.",
+    description: "El Coliseo es un antiguo anfiteatro romano situado en el centro de Roma, Italia. Construido entre el 70 y el 80 d.C., es uno de los monumentos más famosos del Imperio Romano. El Coliseo podía albergar a hasta 50,000 espectadores y fue utilizado para eventos como gladiadores, ejecuciones y recreaciones de batallas. Aunque ha sufrido daños por terremotos y robos de piedra a lo largo de los siglos, el Coliseo sigue siendo un símbolo perdurable de la grandeza de la Roma antigua.",
+    imageUrl: "https://example.com/colosseum.jpg",
+    facts: {
+      yearOfDiscovery: "No aplica",
+      country: "Italia",
+      unescoWorldHeritage: "1980"
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
-    "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+    id: "pyramids-of-giza",
+    name: "Pirámides de Giza",
+    shortDescription: "Antiguas pirámides egipcias que datan de más de 4,000 años.",
+    description: "Las Pirámides de Giza son uno de los conjuntos de monumentos más antiguos y misteriosos del mundo, situados en las afueras de El Cairo, Egipto. Construidas como tumbas para los faraones de la Cuarta Dinastía hace más de 4,500 años, estas pirámides son un testimonio de la ingeniería avanzada de los antiguos egipcios. La Gran Pirámide de Giza, la más grande de las tres, fue una de las Siete Maravillas del Mundo Antiguo y sigue siendo la única que aún existe.",
+    imageUrl: "https://example.com/pyramids-of-giza.jpg",
+    facts: {
+      yearOfDiscovery: "No aplica",
+      country: "Egipto",
+      unescoWorldHeritage: "1979"
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+    id: "petra",
+    name: "Petra",
+    shortDescription: "Ciudad arqueológica esculpida en roca en Jordania.",
+    description: "Petra es una antigua ciudad arqueológica en Jordania, famosa por sus estructuras esculpidas directamente en la roca de arenisca roja. Fundada por los nabateos en el siglo IV a.C., Petra fue una importante encrucijada de comercio entre Arabia, Egipto y Siria. Entre sus estructuras más notables se encuentra Al Khazneh, o 'El Tesoro', que ha sido inmortalizado en numerosas películas. Petra fue redescubierta por exploradores europeos en el siglo XIX y es uno de los destinos turísticos más visitados en el Medio Oriente.",
+    imageUrl: "https://example.com/petra.jpg",
+    facts: {
+      yearOfDiscovery: "1812",
+      country: "Jordania",
+      unescoWorldHeritage: "1985"
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+    id: "sydney-opera-house",
+    name: "Ópera de Sídney",
+    shortDescription: "Emblemático edificio de arquitectura moderna en Australia.",
+    description: "La Ópera de Sídney es uno de los edificios más reconocidos del mundo, famoso por su arquitectura moderna y su techo en forma de conchas. Inaugurada en 1973 y diseñada por el arquitecto danés Jørn Utzon, la Ópera de Sídney se encuentra en el puerto de Sídney y es un centro cultural vibrante que alberga actuaciones de música, teatro y danza. El edificio es un símbolo de la ciudad de Sídney y de Australia en general, atrayendo a millones de visitantes cada año.",
+    imageUrl: "https://example.com/sydney-opera-house.jpg",
+    facts: {
+      yearOfDiscovery: "1973",
+      country: "Australia",
+      unescoWorldHeritage: "2007"
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+    id: "angkor-wat",
+    name: "Angkor Wat",
+    shortDescription: "Complejo de templos en Camboya, el más grande del mundo.",
+    description: "Angkor Wat es un vasto complejo de templos en Camboya, originalmente construido como un templo hindú dedicado al dios Vishnu en el siglo XII, y más tarde transformado en un templo budista. Es el monumento religioso más grande del mundo y un símbolo nacional de Camboya. Los intrincados relieves y la arquitectura simétrica de Angkor Wat reflejan la grandeza del imperio jemer. Rodeado de un foso y un denso bosque, Angkor Wat es uno de los sitios arqueológicos más importantes de Asia.",
+    imageUrl: "https://example.com/angkor-wat.jpg",
+    facts: {
+      yearOfDiscovery: "No aplica",
+      country: "Camboya",
+      unescoWorldHeritage: "1992"
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
-    "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+    id: "acropolis-of-athens",
+    name: "Acrópolis de Atenas",
+    shortDescription: "Conjunto de edificios históricos en una colina en Atenas, Grecia.",
+    description: "La Acrópolis de Atenas es un conjunto de estructuras antiguas situadas en una colina rocosa en el centro de Atenas, Grecia. El monumento más famoso es el Partenón, un templo dedicado a la diosa Atenea, construido en el siglo V a.C. La Acrópolis es un símbolo de la civilización griega y de su contribución a la cultura y la democracia occidentales. Los restos de sus templos y teatros han sobrevivido durante siglos, a pesar de los saqueos, guerras y desastres naturales, siendo un testimonio del legado griego.",
+    imageUrl: "https://example.com/acropolis-of-athens.jpg",
+    facts: {
+      yearOfDiscovery: "No aplica",
+      country: "Grecia",
+      unescoWorldHeritage: "1987"
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+    id: "sagrada-familia",
+    name: "La Sagrada Familia",
+    shortDescription: "Basílica católica en Barcelona, obra maestra de Gaudí.",
+    description: "La Sagrada Familia es una basílica católica en Barcelona, España, diseñada por el arquitecto Antoni Gaudí. La construcción comenzó en 1882 y, aunque aún no está terminada, es uno de los monumentos más visitados de España. El diseño de Gaudí combina elementos góticos y Art Nouveau, con torres que alcanzan los 170 metros de altura. La Sagrada Familia es famosa por su impresionante fachada y su interior lleno de luz. Es un símbolo de la creatividad y la devoción religiosa de Gaudí.",
+    imageUrl: "https://example.com/sagrada-familia.jpg",
+    facts: {
+      yearOfDiscovery: "1882",
+      country: "España",
+      unescoWorldHeritage: "2005"
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
-    "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+    id: "stonehenge",
+    name: "Stonehenge",
+    shortDescription: "Misterioso monumento prehistórico de piedras en Inglaterra.",
+    description: "Stonehenge es un antiguo monumento megalítico situado en Wiltshire, Inglaterra. Este círculo de piedras, cuya construcción data de entre 3000 y 2000 a.C., es uno de los sitios arqueológicos más famosos del mundo. El propósito original de Stonehenge sigue siendo un misterio, pero se cree que pudo haber sido un lugar de culto o un calendario astronómico. Las enormes piedras, algunas de las cuales pesan más de 25 toneladas, fueron transportadas desde largas distancias, lo que demuestra la habilidad y determinación de sus constructores.",
+    imageUrl: "https://example.com/stonehenge.jpg",
+    facts: {
+      yearOfDiscovery: "No aplica",
+      country: "Reino Unido",
+      unescoWorldHeritage: "1986"
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+    id: "grand-canyon",
+    name: "Gran Cañón",
+    shortDescription: "Impresionante desfiladero tallado por el río Colorado en EE. UU.",
+    description: "El Gran Cañón es un vasto desfiladero tallado por el río Colorado en el estado de Arizona, Estados Unidos. Con una profundidad de más de 1,800 metros y una longitud de 446 kilómetros, el Gran Cañón es uno de los paisajes más espectaculares y sobrecogedores del mundo. La erosión a lo largo de millones de años ha revelado capas de roca que datan de hasta 2,000 millones de años. El Gran Cañón es un destino popular para excursionistas, amantes de la naturaleza y turistas que buscan experimentar su grandeza y belleza natural.",
+    imageUrl: "https://example.com/grand-canyon.jpg",
+    facts: {
+      yearOfDiscovery: "No aplica",
+      country: "Estados Unidos",
+      unescoWorldHeritage: "1979"
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+    id: "mount-everest",
+    name: "Monte Everest",
+    shortDescription: "La montaña más alta del mundo, situada en el Himalaya.",
+    description: "El Monte Everest es la montaña más alta del mundo, con una altitud de 8,848 metros sobre el nivel del mar. Situado en la cordillera del Himalaya, en la frontera entre Nepal y China, el Everest ha atraído a alpinistas de todo el mundo desde que fue escalado por primera vez en 1953 por Edmund Hillary y Tenzing Norgay. La montaña es conocida por sus condiciones extremas y el desafío que representa para los escaladores. El Everest es un símbolo de la naturaleza imponente y la resistencia humana.",
+    imageUrl: "https://example.com/mount-everest.jpg",
+    facts: {
+      yearOfDiscovery: "1856",
+      country: "Nepal",
+      unescoWorldHeritage: "1979"
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+    id: "niagara-falls",
+    name: "Cataratas del Niágara",
+    shortDescription: "Imponentes cascadas en la frontera entre EE. UU. y Canadá.",
+    description: "Las Cataratas del Niágara son un conjunto de tres cascadas situadas en la frontera entre Estados Unidos y Canadá. Con un caudal de más de 168,000 metros cúbicos por minuto, las cataratas son una de las más poderosas del mundo. Las Cataratas del Niágara, compuestas por las Cataratas Americanas, las Cataratas Velo de Novia y las Cataratas Canadienses, atraen a millones de turistas cada año. Son famosas no solo por su belleza natural, sino también por su importancia como fuente de energía hidroeléctrica.",
+    imageUrl: "https://example.com/niagara-falls.jpg",
+    facts: {
+      yearOfDiscovery: "No aplica",
+      country: "Canadá/Estados Unidos",
+      unescoWorldHeritage: "No aplica"
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+    id: "burj-khalifa",
+    name: "Burj Khalifa",
+    shortDescription: "El edificio más alto del mundo, ubicado en Dubái.",
+    description: "El Burj Khalifa, con una altura de 828 metros, es el edificio más alto del mundo, situado en Dubái, Emiratos Árabes Unidos. Inaugurado en 2010, el rascacielos es una maravilla de la ingeniería moderna, con 163 plantas y vistas panorámicas de la ciudad. El Burj Khalifa es un símbolo de la ambición y el crecimiento de Dubái como centro global de comercio y turismo. Su diseño futurista y sus avanzadas tecnologías lo convierten en un ícono de la arquitectura contemporánea.",
+    imageUrl: "https://example.com/burj-khalifa.jpg",
+    facts: {
+      yearOfDiscovery: "2010",
+      country: "Emiratos Árabes Unidos",
+      unescoWorldHeritage: "No aplica"
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+    id: "venice-canals",
+    name: "Canales de Venecia",
+    shortDescription: "Red de canales que atraviesan la histórica ciudad de Venecia.",
+    description: "Los Canales de Venecia son una red de vías fluviales que atraviesan la ciudad de Venecia, en Italia. Construidos en la Edad Media, los canales son el principal medio de transporte en la ciudad, donde los automóviles están prohibidos. El Gran Canal, el más grande y famoso, serpentea a través de Venecia, flanqueado por palacios y puentes históricos. Los canales de Venecia, junto con sus góndolas y arquitectura renacentista, han hecho de la ciudad uno de los destinos turísticos más románticos y pintorescos del mundo.",
+    imageUrl: "https://example.com/venice-canals.jpg",
+    facts: {
+      yearOfDiscovery: "No aplica",
+      country: "Italia",
+      unescoWorldHeritage: "1987"
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
-    "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+    id: "fushimi-inari-taisha",
+    name: "Fushimi Inari Taisha",
+    shortDescription: "Famoso santuario sintoísta en Kioto, Japón, conocido por sus puertas torii.",
+    description: "Fushimi Inari Taisha es uno de los santuarios sintoístas más importantes de Japón, ubicado en Kioto. Fundado en el año 711, el santuario es conocido por sus miles de puertas torii rojas que forman senderos que serpentean por la montaña Inari. Fushimi Inari está dedicado a Inari, el dios del arroz y la agricultura, y es un lugar de peregrinación popular tanto para turistas como para devotos. Las puertas torii, donadas por individuos y empresas, son un símbolo de gratitud y prosperidad.",
+    imageUrl: "https://example.com/fushimi-inari-taisha.jpg",
+    facts: {
+      yearOfDiscovery: "711",
+      country: "Japón",
+      unescoWorldHeritage: "1994"
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+    id: "moai-easter-island",
+    name: "Moái de la Isla de Pascua",
+    shortDescription: "Enigmáticas estatuas monolíticas en la Isla de Pascua.",
+    description: "Los Moái son enormes estatuas monolíticas que se encuentran en la Isla de Pascua, un territorio chileno en el océano Pacífico. Talladas entre los siglos XIII y XVI por el pueblo rapanui, las estatuas representan figuras humanas con cabezas desproporcionadamente grandes. Los Moái son considerados un símbolo de la cultura y el misterio de la Isla de Pascua, y su significado sigue siendo objeto de estudio y debate. Atraen a arqueólogos y turistas interesados en descubrir más sobre la historia de esta remota isla.",
+    imageUrl: "https://example.com/moai-easter-island.jpg",
+    facts: {
+      yearOfDiscovery: "No aplica",
+      country: "Chile",
+      unescoWorldHeritage: "1995"
     }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+    id: "mount-fuji",
+    name: "Monte Fuji",
+    shortDescription: "Volcán icónico de Japón, símbolo cultural y espiritual.",
+    description: "El Monte Fuji es un volcán activo y la montaña más alta de Japón, con 3,776 metros de altura. Situado a unos 100 kilómetros al suroeste de Tokio, el Monte Fuji es un símbolo nacional de Japón, representado en numerosas obras de arte y literatura. Es un lugar sagrado en el sintoísmo, y muchos japoneses lo consideran un destino de peregrinación. El Monte Fuji es también un popular destino turístico y de escalada, especialmente durante los meses de verano, cuando miles de personas suben a su cima para ver el amanecer.",
+    imageUrl: "https://example.com/mount-fuji.jpg",
+    facts: {
+      yearOfDiscovery: "No aplica",
+      country: "Japón",
+      unescoWorldHeritage: "2013"
     }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
+    id: "empire-state-building",
+    name: "Empire State Building",
+    shortDescription: "Rascacielos emblemático de Nueva York, construido en los años 30.",
+    description: "El Empire State Building es uno de los rascacielos más emblemáticos de Nueva York y del mundo, situado en el corazón de Manhattan. Inaugurado en 1931, durante la Gran Depresión, el edificio de 102 pisos fue el más alto del mundo durante casi 40 años. Diseñado en estilo Art Deco, el Empire State Building ha aparecido en numerosas películas y es una de las atracciones turísticas más populares de la ciudad. Su plataforma de observación ofrece vistas panorámicas de Nueva York y es un símbolo del poderío arquitectónico de Estados Unidos.",
+    imageUrl: "https://example.com/empire-state-building.jpg",
+    facts: {
+      yearOfDiscovery: "1931",
+      country: "Estados Unidos",
+      unescoWorldHeritage: "No aplica"
     }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
+    id: "times-square",
+    name: "Times Square",
+    shortDescription: "Vibrante intersección de Nueva York conocida por sus carteles luminosos.",
+    description: "Times Square es una de las intersecciones más famosas y animadas del mundo, situada en el centro de Manhattan, Nueva York. Conocida como 'La encrucijada del mundo', Times Square es un símbolo de la energía incesante de Nueva York. La plaza es famosa por sus brillantes carteles luminosos, sus teatros de Broadway y su celebración anual de la víspera de Año Nuevo. Times Square atrae a millones de turistas cada año que buscan experimentar la vibrante vida urbana y la cultura única de la ciudad.",
+    imageUrl: "https://example.com/times-square.jpg",
+    facts: {
+      yearOfDiscovery: "No aplica",
+      country: "Estados Unidos",
+      unescoWorldHeritage: "No aplica"
     }
   }
 ];
+
