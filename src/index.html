@@ -7,12 +7,34 @@
   </head>
   <body>
 
-    <header>
+    <header id="headerTitle">
       <h1>Sitios Turísticos del Mundo</h1>
     </header>
 
     <main>
-      <h2>Este es el cuerpo de la pagina</h2>
+
+      <section id="contenedorFiltrosOrdenamiento">
+        <div>
+          <label for="country-select">Fitrado por:</label>
+          <select data-testid="select-filter" name="country" id="country-select">
+            <option value="">País</option>
+            <option value="peru">Perú</option>
+            <option value="italia">Italia</option>
+          </select>
+        </div>
+  
+        <div>
+          <label for="nombre-select">Ordenado por nombre</label>
+          <select data-testid="select-sort" name="nombre" id="nombre-select">
+            <option value="asc">A - Z</option>
+            <option value="desc">Z - A</option>
+          </select>
+        </div>
+  
+        <div>
+          <button data-testid="button-clear">LIMPIAR</button>
+        </div>
+      </section>
 
       <section id="root">
         
@@ -21,7 +43,7 @@
     </main>
 
     <footer>
-      <p>By Luz Vivanco</p>
+      <p>Creado por Luz Vivanco © 2024</p>
     </footer>
     <script src="main.js" type="module"></script>
   </body>
