@@ -64,7 +64,7 @@ export default [
     name: "Cristo Redentor",
     shortDescription: "Monumento religioso ubicado en la cima del monte Corcovado.",
     description: "El Cristo Redentor es una estatua icónica de Jesús de Nazaret con los brazos extendidos, situada en la cima del monte Corcovado en Río de Janeiro, Brasil. Inaugurada en 1931, la estatua de 30 metros de altura fue diseñada por el escultor francés Paul Landowski y el ingeniero brasileño Heitor da Silva Costa. Hecha de hormigón armado y piedra jabón, el Cristo Redentor es un símbolo de la fe cristiana y ofrece vistas panorámicas espectaculares de la ciudad. Es una de las Nuevas Siete Maravillas del Mundo moderno.",
-    imageUrl: "https://example.com/christ-the-redeemer.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG1.ObhByeOBXa36yB.DQyzQ?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "1931",
       country: "Brasil",
@@ -76,7 +76,7 @@ export default [
     name: "Coliseo",
     shortDescription: "Anfiteatro romano en el corazón de Roma, Italia.",
     description: "El Coliseo es un antiguo anfiteatro romano situado en el centro de Roma, Italia. Construido entre el 70 y el 80 d.C., es uno de los monumentos más famosos del Imperio Romano. El Coliseo podía albergar a hasta 50,000 espectadores y fue utilizado para eventos como gladiadores, ejecuciones y recreaciones de batallas. Aunque ha sufrido daños por terremotos y robos de piedra a lo largo de los siglos, el Coliseo sigue siendo un símbolo perdurable de la grandeza de la Roma antigua.",
-    imageUrl: "https://example.com/colosseum.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG3.1J7u6xZKDTtWilb_SgBc?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "No aplica",
       country: "Italia",
@@ -88,7 +88,7 @@ export default [
     name: "Pirámides de Giza",
     shortDescription: "Antiguas pirámides egipcias que datan de más de 4,000 años.",
     description: "Las Pirámides de Giza son uno de los conjuntos de monumentos más antiguos y misteriosos del mundo, situados en las afueras de El Cairo, Egipto. Construidas como tumbas para los faraones de la Cuarta Dinastía hace más de 4,500 años, estas pirámides son un testimonio de la ingeniería avanzada de los antiguos egipcios. La Gran Pirámide de Giza, la más grande de las tres, fue una de las Siete Maravillas del Mundo Antiguo y sigue siendo la única que aún existe.",
-    imageUrl: "https://example.com/pyramids-of-giza.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG3.RvwE8Oe_VyogUMIMLVsa?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "No aplica",
       country: "Egipto",
@@ -100,7 +100,7 @@ export default [
     name: "Petra",
     shortDescription: "Ciudad arqueológica esculpida en roca en Jordania.",
     description: "Petra es una antigua ciudad arqueológica en Jordania, famosa por sus estructuras esculpidas directamente en la roca de arenisca roja. Fundada por los nabateos en el siglo IV a.C., Petra fue una importante encrucijada de comercio entre Arabia, Egipto y Siria. Entre sus estructuras más notables se encuentra Al Khazneh, o 'El Tesoro', que ha sido inmortalizado en numerosas películas. Petra fue redescubierta por exploradores europeos en el siglo XIX y es uno de los destinos turísticos más visitados en el Medio Oriente.",
-    imageUrl: "https://example.com/petra.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG3.eKFLzcSUXYGaK213D_MH?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "1812",
       country: "Jordania",
@@ -112,7 +112,7 @@ export default [
     name: "Ópera de Sídney",
     shortDescription: "Emblemático edificio de arquitectura moderna en Australia.",
     description: "La Ópera de Sídney es uno de los edificios más reconocidos del mundo, famoso por su arquitectura moderna y su techo en forma de conchas. Inaugurada en 1973 y diseñada por el arquitecto danés Jørn Utzon, la Ópera de Sídney se encuentra en el puerto de Sídney y es un centro cultural vibrante que alberga actuaciones de música, teatro y danza. El edificio es un símbolo de la ciudad de Sídney y de Australia en general, atrayendo a millones de visitantes cada año.",
-    imageUrl: "https://example.com/sydney-opera-house.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG3.DOSLzUHbbuQEWkjsUMzK?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "1973",
       country: "Australia",
@@ -124,7 +124,7 @@ export default [
     name: "Angkor Wat",
     shortDescription: "Complejo de templos en Camboya, el más grande del mundo.",
     description: "Angkor Wat es un vasto complejo de templos en Camboya, originalmente construido como un templo hindú dedicado al dios Vishnu en el siglo XII, y más tarde transformado en un templo budista. Es el monumento religioso más grande del mundo y un símbolo nacional de Camboya. Los intrincados relieves y la arquitectura simétrica de Angkor Wat reflejan la grandeza del imperio jemer. Rodeado de un foso y un denso bosque, Angkor Wat es uno de los sitios arqueológicos más importantes de Asia.",
-    imageUrl: "https://example.com/angkor-wat.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG3.KO8_zr0XRyMgnRTxc.UI?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "No aplica",
       country: "Camboya",
@@ -136,7 +136,7 @@ export default [
     name: "Acrópolis de Atenas",
     shortDescription: "Conjunto de edificios históricos en una colina en Atenas, Grecia.",
     description: "La Acrópolis de Atenas es un conjunto de estructuras antiguas situadas en una colina rocosa en el centro de Atenas, Grecia. El monumento más famoso es el Partenón, un templo dedicado a la diosa Atenea, construido en el siglo V a.C. La Acrópolis es un símbolo de la civilización griega y de su contribución a la cultura y la democracia occidentales. Los restos de sus templos y teatros han sobrevivido durante siglos, a pesar de los saqueos, guerras y desastres naturales, siendo un testimonio del legado griego.",
-    imageUrl: "https://example.com/acropolis-of-athens.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG3.QMPXxM4g0ERlmXVk0j7C?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "No aplica",
       country: "Grecia",
@@ -148,7 +148,7 @@ export default [
     name: "La Sagrada Familia",
     shortDescription: "Basílica católica en Barcelona, obra maestra de Gaudí.",
     description: "La Sagrada Familia es una basílica católica en Barcelona, España, diseñada por el arquitecto Antoni Gaudí. La construcción comenzó en 1882 y, aunque aún no está terminada, es uno de los monumentos más visitados de España. El diseño de Gaudí combina elementos góticos y Art Nouveau, con torres que alcanzan los 170 metros de altura. La Sagrada Familia es famosa por su impresionante fachada y su interior lleno de luz. Es un símbolo de la creatividad y la devoción religiosa de Gaudí.",
-    imageUrl: "https://example.com/sagrada-familia.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG1.0u0GvocuGNF34xXFQLk5?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "1882",
       country: "España",
@@ -160,7 +160,7 @@ export default [
     name: "Stonehenge",
     shortDescription: "Misterioso monumento prehistórico de piedras en Inglaterra.",
     description: "Stonehenge es un antiguo monumento megalítico situado en Wiltshire, Inglaterra. Este círculo de piedras, cuya construcción data de entre 3000 y 2000 a.C., es uno de los sitios arqueológicos más famosos del mundo. El propósito original de Stonehenge sigue siendo un misterio, pero se cree que pudo haber sido un lugar de culto o un calendario astronómico. Las enormes piedras, algunas de las cuales pesan más de 25 toneladas, fueron transportadas desde largas distancias, lo que demuestra la habilidad y determinación de sus constructores.",
-    imageUrl: "https://example.com/stonehenge.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG2.FL5XgOQl.lMEczs1VGN3?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "No aplica",
       country: "Reino Unido",
@@ -172,7 +172,7 @@ export default [
     name: "Gran Cañón",
     shortDescription: "Impresionante desfiladero tallado por el río Colorado en EE. UU.",
     description: "El Gran Cañón es un vasto desfiladero tallado por el río Colorado en el estado de Arizona, Estados Unidos. Con una profundidad de más de 1,800 metros y una longitud de 446 kilómetros, el Gran Cañón es uno de los paisajes más espectaculares y sobrecogedores del mundo. La erosión a lo largo de millones de años ha revelado capas de roca que datan de hasta 2,000 millones de años. El Gran Cañón es un destino popular para excursionistas, amantes de la naturaleza y turistas que buscan experimentar su grandeza y belleza natural.",
-    imageUrl: "https://example.com/grand-canyon.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG1.x6U3s7BbXwlSLYgEbmYP?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "No aplica",
       country: "Estados Unidos",
@@ -184,7 +184,7 @@ export default [
     name: "Monte Everest",
     shortDescription: "La montaña más alta del mundo, situada en el Himalaya.",
     description: "El Monte Everest es la montaña más alta del mundo, con una altitud de 8,848 metros sobre el nivel del mar. Situado en la cordillera del Himalaya, en la frontera entre Nepal y China, el Everest ha atraído a alpinistas de todo el mundo desde que fue escalado por primera vez en 1953 por Edmund Hillary y Tenzing Norgay. La montaña es conocida por sus condiciones extremas y el desafío que representa para los escaladores. El Everest es un símbolo de la naturaleza imponente y la resistencia humana.",
-    imageUrl: "https://example.com/mount-everest.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG2.S7Q43GZSQAqZCCR.lPEh?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "1856",
       country: "Nepal",
@@ -196,7 +196,7 @@ export default [
     name: "Cataratas del Niágara",
     shortDescription: "Imponentes cascadas en la frontera entre EE. UU. y Canadá.",
     description: "Las Cataratas del Niágara son un conjunto de tres cascadas situadas en la frontera entre Estados Unidos y Canadá. Con un caudal de más de 168,000 metros cúbicos por minuto, las cataratas son una de las más poderosas del mundo. Las Cataratas del Niágara, compuestas por las Cataratas Americanas, las Cataratas Velo de Novia y las Cataratas Canadienses, atraen a millones de turistas cada año. Son famosas no solo por su belleza natural, sino también por su importancia como fuente de energía hidroeléctrica.",
-    imageUrl: "https://example.com/niagara-falls.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG3.wLE65YEPgrSZsZrJu.Eg?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "No aplica",
       country: "Canadá/Estados Unidos",
@@ -208,7 +208,7 @@ export default [
     name: "Burj Khalifa",
     shortDescription: "El edificio más alto del mundo, ubicado en Dubái.",
     description: "El Burj Khalifa, con una altura de 828 metros, es el edificio más alto del mundo, situado en Dubái, Emiratos Árabes Unidos. Inaugurado en 2010, el rascacielos es una maravilla de la ingeniería moderna, con 163 plantas y vistas panorámicas de la ciudad. El Burj Khalifa es un símbolo de la ambición y el crecimiento de Dubái como centro global de comercio y turismo. Su diseño futurista y sus avanzadas tecnologías lo convierten en un ícono de la arquitectura contemporánea.",
-    imageUrl: "https://example.com/burj-khalifa.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG1.5_ooulAqQ7NeudYy6QVJ?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "2010",
       country: "Emiratos Árabes Unidos",
@@ -220,7 +220,7 @@ export default [
     name: "Canales de Venecia",
     shortDescription: "Red de canales que atraviesan la histórica ciudad de Venecia.",
     description: "Los Canales de Venecia son una red de vías fluviales que atraviesan la ciudad de Venecia, en Italia. Construidos en la Edad Media, los canales son el principal medio de transporte en la ciudad, donde los automóviles están prohibidos. El Gran Canal, el más grande y famoso, serpentea a través de Venecia, flanqueado por palacios y puentes históricos. Los canales de Venecia, junto con sus góndolas y arquitectura renacentista, han hecho de la ciudad uno de los destinos turísticos más románticos y pintorescos del mundo.",
-    imageUrl: "https://example.com/venice-canals.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG1.wd1xVK86EyA1rX2QyMky?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "No aplica",
       country: "Italia",
@@ -232,7 +232,7 @@ export default [
     name: "Fushimi Inari Taisha",
     shortDescription: "Famoso santuario sintoísta en Kioto, Japón, conocido por sus puertas torii.",
     description: "Fushimi Inari Taisha es uno de los santuarios sintoístas más importantes de Japón, ubicado en Kioto. Fundado en el año 711, el santuario es conocido por sus miles de puertas torii rojas que forman senderos que serpentean por la montaña Inari. Fushimi Inari está dedicado a Inari, el dios del arroz y la agricultura, y es un lugar de peregrinación popular tanto para turistas como para devotos. Las puertas torii, donadas por individuos y empresas, son un símbolo de gratitud y prosperidad.",
-    imageUrl: "https://example.com/fushimi-inari-taisha.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG2.6.W0sBl7SY1oK0O1IuzD?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "711",
       country: "Japón",
@@ -244,7 +244,7 @@ export default [
     name: "Moái de la Isla de Pascua",
     shortDescription: "Enigmáticas estatuas monolíticas en la Isla de Pascua.",
     description: "Los Moái son enormes estatuas monolíticas que se encuentran en la Isla de Pascua, un territorio chileno en el océano Pacífico. Talladas entre los siglos XIII y XVI por el pueblo rapanui, las estatuas representan figuras humanas con cabezas desproporcionadamente grandes. Los Moái son considerados un símbolo de la cultura y el misterio de la Isla de Pascua, y su significado sigue siendo objeto de estudio y debate. Atraen a arqueólogos y turistas interesados en descubrir más sobre la historia de esta remota isla.",
-    imageUrl: "https://example.com/moai-easter-island.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG1.jK9nTBLfzTdwzriPCGNY?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "No aplica",
       country: "Chile",
@@ -256,7 +256,7 @@ export default [
     name: "Monte Fuji",
     shortDescription: "Volcán icónico de Japón, símbolo cultural y espiritual.",
     description: "El Monte Fuji es un volcán activo y la montaña más alta de Japón, con 3,776 metros de altura. Situado a unos 100 kilómetros al suroeste de Tokio, el Monte Fuji es un símbolo nacional de Japón, representado en numerosas obras de arte y literatura. Es un lugar sagrado en el sintoísmo, y muchos japoneses lo consideran un destino de peregrinación. El Monte Fuji es también un popular destino turístico y de escalada, especialmente durante los meses de verano, cuando miles de personas suben a su cima para ver el amanecer.",
-    imageUrl: "https://example.com/mount-fuji.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG4.OtwtJ.ESl5XTeAk_X4_c?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "No aplica",
       country: "Japón",
@@ -268,7 +268,7 @@ export default [
     name: "Empire State Building",
     shortDescription: "Rascacielos emblemático de Nueva York, construido en los años 30.",
     description: "El Empire State Building es uno de los rascacielos más emblemáticos de Nueva York y del mundo, situado en el corazón de Manhattan. Inaugurado en 1931, durante la Gran Depresión, el edificio de 102 pisos fue el más alto del mundo durante casi 40 años. Diseñado en estilo Art Deco, el Empire State Building ha aparecido en numerosas películas y es una de las atracciones turísticas más populares de la ciudad. Su plataforma de observación ofrece vistas panorámicas de Nueva York y es un símbolo del poderío arquitectónico de Estados Unidos.",
-    imageUrl: "https://example.com/empire-state-building.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG3.yVXCl9JEaMbF1l90Q5Dj?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "1931",
       country: "Estados Unidos",
@@ -280,7 +280,7 @@ export default [
     name: "Times Square",
     shortDescription: "Vibrante intersección de Nueva York conocida por sus carteles luminosos.",
     description: "Times Square es una de las intersecciones más famosas y animadas del mundo, situada en el centro de Manhattan, Nueva York. Conocida como 'La encrucijada del mundo', Times Square es un símbolo de la energía incesante de Nueva York. La plaza es famosa por sus brillantes carteles luminosos, sus teatros de Broadway y su celebración anual de la víspera de Año Nuevo. Times Square atrae a millones de turistas cada año que buscan experimentar la vibrante vida urbana y la cultura única de la ciudad.",
-    imageUrl: "https://example.com/times-square.jpg",
+    imageUrl: "https://th.bing.com/th/id/OIG1.uMQ7yD2k8suqg6z7XvBp?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "No aplica",
       country: "Estados Unidos",
