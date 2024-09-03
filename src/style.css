@@ -9,6 +9,7 @@ body {
 
 #contenedorFiltrosOrdenamiento{
     display: flex;
+    /* cuando sea mobile display: block*/
     justify-content: space-between;
     padding: 20px 70px;
     border-top: 1px solid #8d99ae; /* Línea arriba del div */
@@ -60,3 +61,10 @@ button {
 footer {
     text-align: right;
 }
+
+/* @media (max-width: 1250px) {
+    body {
+        background: red;
+    }
+} */
+  

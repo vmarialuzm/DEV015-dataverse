@@ -199,7 +199,7 @@ export default [
     imageUrl: "https://th.bing.com/th/id/OIG3.wLE65YEPgrSZsZrJu.Eg?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     facts: {
       yearOfDiscovery: "No aplica",
-      country: "Canadá/Estados Unidos",
+      country: "Canadá",
       unescoWorldHeritage: "No aplica"
     }
   },
