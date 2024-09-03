@@ -10,6 +10,7 @@ export const renderItems = (data) => {
     newLi.innerHTML = `
       <img src="${element.imageUrl}" alt="">
       <div itemprop="name">Nombre: ${element.name}</div>
+      <p itemprop="country"><strong>País:</strong> ${element.facts.country}</p>
       <p itemprop="shortDescription"><strong>Descripción Corta:</strong> ${element.shortDescription}</p>
       `
     newUl.appendChild(newLi);
