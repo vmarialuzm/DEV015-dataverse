@@ -9,21 +9,24 @@ sectionContainer.appendChild(renderItems(data));
 const selectFilter = document.querySelector("select[name='country']");
 
 selectFilter.addEventListener("input", () => {
-    const option = selectFilter.value;
-    const country = 'country';
-    const result = filterData(data, country, option);
+    const result = filterData(data, 'country', selectFilter.value);
     sectionContainer.replaceChildren(renderItems(result));
 })
+
 
 // Ordenar
 const selectSort = document.querySelector("select[name='nombre']");
 
 selectSort.addEventListener("input", () => {
-    const option = selectSort.value;
-    const name = 'name';
-    const result = sortData(data, name, option);
+
+    // Aplicar primero el filtro si hay un país seleccionado
+    const resultFilter = selectFilter.value ? filterData(data, 'country', selectFilter.value) : data;
+    
+    // Ordenar el resultado filtrado
+    const result = sortData(resultFilter, 'name', selectSort.value);
     sectionContainer.replaceChildren(renderItems(result));
 })
+
 
 // Botón limpiar select(filtros y ordenar)
 const botonLimpiar = document.querySelector("button[data-testid='button-clear']");
