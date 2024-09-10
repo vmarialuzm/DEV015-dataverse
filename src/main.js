@@ -9,8 +9,8 @@ sectionContainer.appendChild(renderItems(data));
 const selectFilter = document.querySelector("select[name='country']");
 
 selectFilter.addEventListener("input", () => {
-    const result = filterData(data, 'country', selectFilter.value);
-    sectionContainer.replaceChildren(renderItems(result));
+  const result = filterData(data, 'country', selectFilter.value);
+  sectionContainer.replaceChildren(renderItems(result));
 })
 
 
@@ -19,12 +19,12 @@ const selectSort = document.querySelector("select[name='nombre']");
 
 selectSort.addEventListener("input", () => {
 
-    // Aplicar primero el filtro si hay un país seleccionado
-    const resultFilter = selectFilter.value ? filterData(data, 'country', selectFilter.value) : data;
+  // Aplicar primero el filtro si hay un país seleccionado
+  const resultFilter = selectFilter.value ? filterData(data, 'country', selectFilter.value) : data;
     
-    // Ordenar el resultado filtrado
-    const result = sortData(resultFilter, 'name', selectSort.value);
-    sectionContainer.replaceChildren(renderItems(result));
+  // Ordenar el resultado filtrado
+  const result = sortData(resultFilter, 'name', selectSort.value);
+  sectionContainer.replaceChildren(renderItems(result));
 })
 
 
@@ -32,7 +32,7 @@ selectSort.addEventListener("input", () => {
 const botonLimpiar = document.querySelector("button[data-testid='button-clear']");
 
 botonLimpiar.addEventListener("click", () => {
-    selectFilter.value = "";
-    selectSort.value = "";
-    sectionContainer.replaceChildren(renderItems(data));
+  selectFilter.value = "";
+  selectSort.value = "";
+  sectionContainer.replaceChildren(renderItems(data));
 })
