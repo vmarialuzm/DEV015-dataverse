@@ -8,7 +8,7 @@ sectionContainer.appendChild(renderItems(data));
 // Filtrar
 const selectFilter = document.querySelector("select[name='country']");
 
-selectFilter.addEventListener("input", () => {
+selectFilter.addEventListener("change", () => {
   const result = filterData(data, 'country', selectFilter.value);
   sectionContainer.replaceChildren(renderItems(result));
 })
@@ -17,7 +17,7 @@ selectFilter.addEventListener("input", () => {
 // Ordenar
 const selectSort = document.querySelector("select[name='nombre']");
 
-selectSort.addEventListener("input", () => {
+selectSort.addEventListener("change", () => {
 
   // Aplicar primero el filtro si hay un país seleccionado
   const resultFilter = selectFilter.value ? filterData(data, 'country', selectFilter.value) : data;

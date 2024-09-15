@@ -6,10 +6,10 @@ export const filterData = (data, filterBy, value) => {
 };
 
 export const sortData = (data, sortBy, sortOrder) => {
-  let result = [];
+  const dataCopy = data.slice();
 
   if (sortOrder === 'asc'){
-    result = data.sort(function (a, b) {
+    dataCopy.sort(function (a, b) {
       if (a[sortBy] > b[sortBy]) {
         return 1;
       }
@@ -20,7 +20,7 @@ export const sortData = (data, sortBy, sortOrder) => {
     });
 
   } else if (sortOrder === 'desc') {
-    result = data.sort(function (x, y) {
+    dataCopy.sort(function (x, y) {
       if (y[sortBy] > x[sortBy]) {
         return 1;
       }
@@ -30,7 +30,7 @@ export const sortData = (data, sortBy, sortOrder) => {
       return 0;
     });
   }
-  return result
+  return dataCopy
 
 }
 
