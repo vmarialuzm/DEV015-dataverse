@@ -8,8 +8,8 @@ export const filterData = (data, filterBy, value) => {
 export const sortData = (data, sortBy, sortOrder) => {
   const dataCopy = data.slice();
 
-  if (sortOrder === 'asc'){
-    dataCopy.sort(function (a, b) {
+  dataCopy.sort(function (a, b) {
+    if (sortOrder === 'asc'){
       if (a[sortBy] > b[sortBy]) {
         return 1;
       }
@@ -17,22 +17,24 @@ export const sortData = (data, sortBy, sortOrder) => {
         return -1;
       }
       return 0;
-    });
-
-  } else if (sortOrder === 'desc') {
-    dataCopy.sort(function (x, y) {
-      if (y[sortBy] > x[sortBy]) {
-        return 1;
-      }
-      if (y[sortBy] < x[sortBy]) {
+    } else if (sortOrder === 'desc') {
+      if (a[sortBy] > b[sortBy]) {
         return -1;
       }
+      if (a[sortBy] < b[sortBy]) {
+        return 1;
+      }
       return 0;
-    });
-  }
-  return dataCopy
+    }
+  });
 
-}
+  return dataCopy
+};
+
+export const computeStats = (data) => {
+  console.log("data");
+  // porcentaje de unesco por decada
+};
 
 
 
