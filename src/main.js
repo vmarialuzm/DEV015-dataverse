@@ -28,6 +28,15 @@ selectSort.addEventListener("change", () => {
 })
 
 
+// Estadísticas
+const selectEstadisticas = document.querySelector("select[name='unesco']");
+
+selectEstadisticas.addEventListener("change", () => {
+  const result = selectEstadisticas.value
+  console.log(result)
+})
+
+
 // Botón limpiar select(filtros y ordenar)
 const botonLimpiar = document.querySelector("button[data-testid='button-clear']");
 
