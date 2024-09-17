@@ -31,9 +31,20 @@ export const sortData = (data, sortBy, sortOrder) => {
   return dataCopy
 };
 
-export const computeStats = (data) => {
-  console.log("data");
-  // porcentaje de unesco por decada
+export const computeStats = (data, yearElegido) => {
+
+  let contador = 0
+
+  data.forEach((item) => {
+
+    yearElegido = parseInt(yearElegido)
+
+    if (item.facts.unescoWorldHeritage >= yearElegido &&  item.facts.unescoWorldHeritage <= yearElegido+9 ){
+      contador += 1
+    }
+  })
+  const result = contador/data.length *100
+  return `${result.toFixed(2)} %`
 };
 
 

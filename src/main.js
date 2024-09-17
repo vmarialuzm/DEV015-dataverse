@@ -1,4 +1,4 @@
-import { filterData, sortData } from './dataFunctions.js';
+import { filterData, sortData, computeStats } from './dataFunctions.js';
 import { renderItems } from './view.js';
 import data from './data/dataset.js';
 
@@ -30,10 +30,18 @@ selectSort.addEventListener("change", () => {
 
 // Estadísticas
 const selectEstadisticas = document.querySelector("select[name='unesco']");
+const sectionEstadisticas = document.getElementById("estadisticas")
 
 selectEstadisticas.addEventListener("change", () => {
-  const result = selectEstadisticas.value
-  console.log(result)
+  
+  const newParrafo = document.createElement("p")
+  const result = computeStats(data, selectEstadisticas.value)
+  newParrafo.innerHTML = `
+    <span>Porcentaje de atractivos turísticos reconocidos por la Unesco como matrimonio mundial en los años
+    <strong>${selectEstadisticas.value} : ${result}</strong></span>
+    `
+
+  sectionEstadisticas.replaceChildren(newParrafo)
 })
 
 
