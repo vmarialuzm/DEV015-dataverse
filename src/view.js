@@ -7,6 +7,8 @@ export const renderItems = (data) => {
     newLi.setAttribute('itemscope', '');
     newLi.setAttribute('itemtype', 'TouristSites')
 
+    newLi.classList.add('tourist-site-item');
+
     newLi.innerHTML = `
       <img src="${element.imageUrl}" alt="">
       <div itemprop="name">Nombre: ${element.name}</div>
