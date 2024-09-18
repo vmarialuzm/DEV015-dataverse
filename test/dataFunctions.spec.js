@@ -1,7 +1,6 @@
-import { filterData, sortData } from '../src/dataFunctions.js';
+import { filterData, sortData, computeStats } from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
 
-console.log(fakeData);
 
 describe('filterData', () => {
 
@@ -78,15 +77,15 @@ describe('sortData', () => {
         }
       },
       {
-        id: "statue-of-liberty",
-        name: "Estatua de la Libertad",
-        shortDescription: "Monumento que simboliza la libertad y la democracia en Nueva York.",
-        description: "La Estatua de la Libertad, un regalo de Francia a Estados Unidos, se encuentra en la isla de la Libertad en el puerto de Nueva York. Inaugurada en 1886, la estatua de cobre representa a Libertas, la diosa romana de la libertad. Es un símbolo de la democracia y la esperanza para millones de inmigrantes que llegaron a América en busca de una vida mejor. La estatua, diseñada por Frédéric Auguste Bartholdi y con estructura de Gustave Eiffel, es uno de los monumentos más reconocidos en el mundo.",
-        imageUrl: "https://th.bing.com/th/id/OIG1.gmDIkIH9T.SaZO089s1H?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
+        id: "christ-the-redeemer",
+        name: "Cristo Redentor",
+        shortDescription: "Monumento religioso ubicado en la cima del monte Corcovado.",
+        description: "El Cristo Redentor es una estatua icónica de Jesús de Nazaret con los brazos extendidos, situada en la cima del monte Corcovado en Río de Janeiro, Brasil. Inaugurada en 1931, la estatua de 30 metros de altura fue diseñada por el escultor francés Paul Landowski y el ingeniero brasileño Heitor da Silva Costa. Hecha de hormigón armado y piedra jabón, el Cristo Redentor es un símbolo de la fe cristiana y ofrece vistas panorámicas espectaculares de la ciudad. Es una de las Nuevas Siete Maravillas del Mundo moderno.",
+        imageUrl: "https://th.bing.com/th/id/OIG1.ObhByeOBXa36yB.DQyzQ?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
         facts: {
-          yearOfDiscovery: "1886",
-          country: "Estados Unidos",
-          unescoWorldHeritage: "1984"
+          yearOfDiscovery: "1931",
+          country: "Brasil",
+          unescoWorldHeritage: "2007"
         }
       },
     ]);
@@ -95,15 +94,15 @@ describe('sortData', () => {
   it('ordena los datos en orden ascendente', () => {
     expect(sortData(fakeData, 'name', 'asc')).toEqual([
       {
-        id: "statue-of-liberty",
-        name: "Estatua de la Libertad",
-        shortDescription: "Monumento que simboliza la libertad y la democracia en Nueva York.",
-        description: "La Estatua de la Libertad, un regalo de Francia a Estados Unidos, se encuentra en la isla de la Libertad en el puerto de Nueva York. Inaugurada en 1886, la estatua de cobre representa a Libertas, la diosa romana de la libertad. Es un símbolo de la democracia y la esperanza para millones de inmigrantes que llegaron a América en busca de una vida mejor. La estatua, diseñada por Frédéric Auguste Bartholdi y con estructura de Gustave Eiffel, es uno de los monumentos más reconocidos en el mundo.",
-        imageUrl: "https://th.bing.com/th/id/OIG1.gmDIkIH9T.SaZO089s1H?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
+        id: "christ-the-redeemer",
+        name: "Cristo Redentor",
+        shortDescription: "Monumento religioso ubicado en la cima del monte Corcovado.",
+        description: "El Cristo Redentor es una estatua icónica de Jesús de Nazaret con los brazos extendidos, situada en la cima del monte Corcovado en Río de Janeiro, Brasil. Inaugurada en 1931, la estatua de 30 metros de altura fue diseñada por el escultor francés Paul Landowski y el ingeniero brasileño Heitor da Silva Costa. Hecha de hormigón armado y piedra jabón, el Cristo Redentor es un símbolo de la fe cristiana y ofrece vistas panorámicas espectaculares de la ciudad. Es una de las Nuevas Siete Maravillas del Mundo moderno.",
+        imageUrl: "https://th.bing.com/th/id/OIG1.ObhByeOBXa36yB.DQyzQ?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
         facts: {
-          yearOfDiscovery: "1886",
-          country: "Estados Unidos",
-          unescoWorldHeritage: "1984"
+          yearOfDiscovery: "1931",
+          country: "Brasil",
+          unescoWorldHeritage: "2007"
         }
       },
       {
@@ -155,6 +154,14 @@ describe('sortData', () => {
         }
       },
     ]);
+  });
+});
+
+
+describe('computeStats', () => {
+
+  it('% de paises por decadas declarados por la unesco', () => {
+    expect(computeStats(fakeData, '1980')).toBe('80.00 %');
   });
 });
 

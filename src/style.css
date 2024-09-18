@@ -17,6 +17,10 @@ body {
     border-bottom: 1px solid #8d99ae; /* Línea abajo del div */
 }
 
+#estadisticas {
+    padding-left: 70px;
+}
+
 #root {
     padding: 10px 0;
 }
