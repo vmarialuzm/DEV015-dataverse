@@ -33,16 +33,15 @@ export const sortData = (data, sortBy, sortOrder) => {
 
 export const computeStats = (data, yearElegido) => {
 
-  let contador = 0
+  yearElegido = parseInt(yearElegido)
 
-  data.forEach((item) => {
-
-    yearElegido = parseInt(yearElegido)
-
-    if (item.facts.unescoWorldHeritage >= yearElegido &&  item.facts.unescoWorldHeritage <= yearElegido+9 ){
-      contador += 1
+  const contador = data.reduce((acumulador, item) => {
+    if (item.facts.unescoWorldHeritage >= yearElegido &&  item.facts.unescoWorldHeritage <= yearElegido+9 ) {
+      return acumulador + 1
     }
-  })
+    return acumulador
+  }, 0)
+
   const result = contador/data.length *100
   return `${result.toFixed(2)} %`
 };
