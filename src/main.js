@@ -32,10 +32,10 @@ selectSort.addEventListener("change", () => {
 const selectEstadisticas = document.querySelector("select[name='unesco']");
 const sectionEstadisticas = document.getElementById("estadisticas")
 
-selectEstadisticas.addEventListener("change", () => {
-  
+selectEstadisticas.addEventListener("change", (event) => {
+  console.log(event.target.value)
   const newParrafo = document.createElement("p")
-  const result = computeStats(data, selectEstadisticas.value)
+  const result = computeStats(data, event.target.value)
   newParrafo.innerHTML = `
     <span>Porcentaje de atractivos turísticos reconocidos por la Unesco como matrimonio mundial en los años
     <strong>${selectEstadisticas.value} : ${result}</strong></span>
@@ -53,3 +53,4 @@ botonLimpiar.addEventListener("click", () => {
   selectSort.value = "";
   sectionContainer.replaceChildren(renderItems(data));
 })
+

@@ -9,6 +9,7 @@
     "pretest": "npm run eslint && npm run htmlhint",
     "test": "jest --verbose --coverage test/",
     "test:e2e": "playwright test",
+    "pretest:oas": "npm run pretest",
     "test:oas": "jest --verbose tests-read-only/oa/",
     "pretest:oas-html": "npm run pretest",
     "test:oas-html": "jest --verbose tests-read-only/oa/oa-html.spec.js",
